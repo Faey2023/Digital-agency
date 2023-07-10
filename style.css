@@ -1,0 +1,31 @@
+/* nav starts here  */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.nav-container{
+    display: flex;
+    background-color: gray;
+    padding: 10px;
+    justify-content: space-around;
+    align-items: center;
+}
+.menus{
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    font-size: 20px;
+    font-style: italic;
+}
+.banner-container{
+    background-image: url(asset/image/background.jpg),linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.4));
+    background-blend-mode: overlay;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.btn-red{
+    background-color: Red;
+    color:white;
+}
